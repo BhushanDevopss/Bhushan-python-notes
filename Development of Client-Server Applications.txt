@@ -1,0 +1,29 @@
+		==============================================================
+				Development of Client-Server Applications
+		==============================================================
+=>In Development of Client-Server Applications, we develop Two Types of Programs. They are
+			1. Server Side Applications
+			2. Client Side Applications
+===============================================================
+Steps for Developing Server Side Applications
+===============================================================
+Step-1 : import socket module and other modules if required
+Step-2 : Create an object of socket (called Server Socket )
+Step-3 : Every Server Socket (Server Side Application) must BIND with certain DNS/IPAddress and Portno.
+Step-4 : Every Server Socket (Server Side Application) must ACCEPT the Reuqest of Client Socket (Client Side 
+             Program) 
+Step-5 : Every Server Socket (Server Side Application) must READ the Requested Data of Client Socket(Client Side 
+             Program) 
+Step-6: Every Server Socket (Server Side Application) must PROCESS the Requested Data of Client Socket(Client			Side Program)  and gives RESPONSE to Client Socket (Client Side Program) 
+Step-7: For Multiple Client Socket (Client Side Program) Requests, repeat Step-4, Step-5 and Step-6
+==========================================================================
+Steps for Developing Client Side Applications
+==========================================================================
+Step-1 : import socket module and other modules if required
+Step-2 : Create an object of socket (called Client Socket )
+Step-3 : Every Client Socket (Client Side Program) Must CONNECT with Server Socket (Server Side Application)
+Step-4 : Every Client Socket (Client Side Program) must SEND Request to Server Socket(Server Side Application)
+Step-5 : Every Client Socket (Client Side Program) must RECEIVE the Response from Server Socket(Server Side 
+             Application)
+Step-6: For Multiple Client Socket (Client Side Program) Requests, repeat Step-4, Step-5 
+===================================================================================

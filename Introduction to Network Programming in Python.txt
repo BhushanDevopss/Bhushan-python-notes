@@ -1,0 +1,43 @@
+		==============================================================
+				Introduction to Network Programming in Python
+		==============================================================
+=>The purpose of Network Programming in Python is that "To share the data or information between multiple 
+    devices across the globe."
+--------------------------------
+=>Definition of Network:
+--------------------------------
+=>A Network is a Collection of Inter-connected Autonomous Computers connected with Server and data or Information can be exchanged.
+----------------------------------
+=>In Network Programming, we develop Two Types of Programs. They are
+			1. Server Side Application
+			2. Client Side Application
+-----------------------------------------------------
+Definition of Server Side Application
+-----------------------------------------------------
+=>A Server Side Application is one , which always receives the Request from Client Side Application, Process the Request of Client Side Application and gives Response back to Client Side Application.
+-----------------------------------------------------
+Definition of Client Side Application
+-----------------------------------------------------
+=>A Client Side Application is one, which always makes a Request to the server side application and gets the result from server side application.
+-------------------------------------------------------------
+Definition of DNS (Domain Naming Service)
+-------------------------------------------------------------
+=>DNS is nothing but Name of the Physical Machine where Server Side Application Resides
+=>The Defautl DNS of Every Computer is "localhost".
+---------------------------------------------------------------------------------
+Definition of IP Address (Internet Protocol Address)
+---------------------------------------------------------------------------------
+=>An IP Address is nothing but Address of Physical Machine where Server Side Application Resides.
+=>The Defautl IP Address of Every Computer is "127.0.0.1" (also called as Loop Back Address).
+-------------------------------------------------------------
+Definition of Portno 
+-------------------------------------------------------------
+A Port Number is one fo the Logical Numerical ID where Server Side Application Runs.
+-------------------------------------------------------------
+=>Hence If any Client Side Program want to get connection from server side application then Client Siode Program must pass ( DNS , Portno )   OR (IP Address, portno)
+---------------------------------
+Definition of socket
+---------------------------------
+A socket is a Bi-Directional Communication component  between Two Ends
+=================================================================================
+

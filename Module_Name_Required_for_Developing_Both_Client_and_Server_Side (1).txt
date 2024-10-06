@@ -1,0 +1,23 @@
+	========================================================================
+		Module Name Required for Developing Both Client and Server Side Applications
+	========================================================================
+=>The Module Name Required for Developing Both Client and Server Side Applications is "socket".
+=>"socket" is one of the pre-defined module in python and it is used for Developing Client and Server Side 
+    Applications.
+-----------------------------------------------------------
+Functions present in socket module--next Sunday 28th Jan 2024 at 7am--9am
+-----------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Rough work
+-----------------------------
+1) socket()
+2) bind()
+3) listen()
+4) accept()
+5) revc() with decode()
+6) send() with encode()
+7) connect()
+---------------------------------------------------------------------------------------------------------------------------------------------
